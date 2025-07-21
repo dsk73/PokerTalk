@@ -84,7 +84,7 @@ img {
 }
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 12px #fd1ccc;
+  box-shadow: 0 0 12px #ff00b3;
 }
 .card-content {
   padding: 10px;
@@ -109,7 +109,7 @@ img {
   object-fit: cover;
 }
 .hero-card .card-content {
-  background: linear-gradient(to right, #2a5074, #121212);
+  background: linear-gradient(to right, #441227, #990330, #441227);
   color: white;
 }
 .hero-card h1 {
