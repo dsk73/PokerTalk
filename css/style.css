@@ -1,0 +1,235 @@
+/* ---------- RESET + BASE ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #1e1e1e;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #fd1ccc;
+}
+.logo {
+  height: 5vh;
+  width: auto;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fd1ccc;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: #ccc;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: #fd1ccc;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-right input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+.login-btn {
+  background: #fd1ccc;
+  border: none;
+  padding: 6px 14px;
+  cursor: pointer;
+  color: #121212;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+/* ---------- GLOBAL CARDS ---------- */
+.card {
+  background-color: #1f1f1f;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+  border: 1px solid #2e2e2e;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px #fd1ccc;
+}
+.card-content {
+  padding: 20px;
+}
+.card-content h3,
+.card-content h2 {
+  color: #fd1ccc;
+  margin-bottom: 10px;
+}
+.card-content p {
+  color: #ccc;
+}
+
+/* ---------- HERO ---------- */
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.hero-card img {
+  max-height: 400px;
+  object-fit: cover;
+}
+.hero-card .card-content {
+  background: linear-gradient(to right, #2a5074, #121212);
+  color: white;
+}
+.hero-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.btn {
+  display: inline-block;
+  background-color: #fd1ccc;
+  color: #121212;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background-color: #ff3797;
+}
+
+/* ---------- CARD SECTIONS ---------- */
+.card-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.section-title {
+  font-size: 1.6rem;
+  margin: 20px 0;
+  color: #fd1ccc;
+}
+.card-grid {
+  display: grid;
+  gap: 20px;
+}
+.card-grid.three {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* ---------- SPLIT SECTION ---------- */
+.split-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.split-section .card {
+  flex: 1 1 48%;
+}
+
+/* ---------- FULL WIDTH CARDS ---------- */
+.full {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0;
+}
+.topic {
+  background: #282828;
+  text-align: center;
+  padding: 30px;
+}
+.forum-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.forum-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* ---------- FOOTER ---------- */
+.site-footer {
+  background: #1a1a1a;
+  color: #ccc;
+  padding: 40px 20px 20px;
+  margin-top: 40px;
+}
+.footer-cols {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-cols h4 {
+  margin-bottom: 10px;
+  color: #fd1ccc;
+}
+.footer-cols a {
+  color: #ccc;
+  font-size: 14px;
+}
+.socials a {
+  margin-right: 10px;
+  font-size: 18px;
+}
+.socials a:hover {
+  color: #fd1ccc;
+}
+footer p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .split-section {
+    flex-direction: column;
+  }
+  .footer-cols {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,66 @@
+hello
+I want to design a website like pokernews.com
+so give me first structure of how folder should be designed
+i want exactly similar things as pokernews.com so at home page create multiple section like first nav bar containing same things like SEARCH should be accessible like it should search on the website, then WSOP WILL open wsop.com site buut not on the new tab or new page in the same page with out nav bar on top, similarly for play the info of tournaments of poker and casino should be there, and then profile info which user can update also and take email and number also while updating
+make login and sigup option also for first time but not compulsory means after clicking on that option then only he have to login in or sign up and first signup for new users and visitors can visit site without signing up
+then next av bar of live events should be similar means what is going on in the world of poker
+
+then top highlights should be there where main info or news which is on site should be there
+
+then top stories make layout like where one should have highe priority and size and others corresponding to it should be small and redirectable
+
+similarly make oter sections like short videos, latest news, latest about WSOp and its news, upcoming tornaments
+featured stories, about players and other stuff like strategies discount and bonuse and other
+
+make all responsive
+
+make styling for each page correctly and impressively
+
+add one Chat Forum between search and WSOP on first nav bar where chating forum should be there like i want to build and after clicking on chat forum the forum on our site should open and there should be different different topics about users can chat and clickingon it visitors can show what chats are going on and if anyone wants to chat he has to login and for new it would signp and then in  the chat msg about topic with time and date along with user name should be visible
+
+make a toggle buttoong on top right with name light-icon.png and dark-icon.png to shift from dark to ligh mode and viceversa make it for logo also two logos for different themes and make colourscheme also with that pov
+
+and basically make coloursceme in attached logo scheme
+
+make properly everything and give me detailed code for each file 
+if you think code is so large then give it in one by one and if each file also have large code then break it and then give
+
+
+add card in the sections at home page depends on their priority so make and make it responsive make 3-5 in each sections
+second thing the login and signup page are not stylised so do it and make on our site only with same nav bar on top
+
+third thing if someone clicks on logo then it will redirect to home page
+
+and chats at chat forum under each topic should be there means after reloading no need to go and user can log out after log in and after logine make it the name as Profile and set default profile pic for it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i want the top stories should like a card having 5 story
+one covering half of the card and other four covering other half in the manner of 0.25 of first card take margin and padding into consideration and 
+
+then keep ext section as short videos with 4 thumbnail in one card horizontally that card shoud be covering 70vw and to the right for the rest 30vw keep one card for advertisement part with same highet as card and hight should be thumnail size plus marging and padding
+
+then keep short summary section with one card containing four short summary sub cards allign horizontally along with pic. card should be of 70vw and to the right of it for the rest 30vw keep one card cantaining image of player and player after clicking on it tthey can redirect to player.html
+
+then keep strategy section covering 70 vw with one card and having 4 stratigies and to the right og it for rest of 30vw keep one card saying Want to contribute and log in now button consider marging and padding in this case also
+
+then there is lets discuss section, make it for 70vw and in that 70vw the 5 discuss subcards would be there in one card and one main topic of the day for 50% of the card and rest four for rest 50% of card similary to top stories ut just in 70vw and to the right of it for 30 ve make a card contaning a table of Top poker rooms with 4 dummy columns one is for name second price pool third entry fee and fourth register and with 5 top poker rooms of your choice
+
+then make Live events section of 70vw and 50 vh with card contaning table with 7 columns and 9 rows and to the right make for rest 30vwmake one card contaning four thumnails in four parts of suqre allignment 
+
+then make about us section with image and then make footer very stylish
+
+
+keep site colour scheme as pokertalk.in logo and make for dark and light mode as i already tell you
+(above mentioned all values are for understanding of the layout not exactly, after considering marging and paading you can manipulate it
