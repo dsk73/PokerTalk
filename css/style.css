@@ -33,8 +33,8 @@ img {
   border-bottom: 2px solid #fd1ccc;
 }
 .logo {
-  height: 5vh;
-  width: auto;
+  width: 5vw;
+  height: auto;
   font-size: 1.8rem;
   font-weight: 700;
   color: #fd1ccc;
