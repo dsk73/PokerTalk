@@ -75,7 +75,7 @@ img {
 /* ---------- GLOBAL CARDS ---------- */
 .card {
   background-color: #1f1f1f;
-  margin: 20px auto;
+  margin: 10px auto;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -87,7 +87,7 @@ img {
   box-shadow: 0 0 12px #fd1ccc;
 }
 .card-content {
-  padding: 20px;
+  padding: 10px;
 }
 .card-content h3,
 .card-content h2 {
@@ -105,7 +105,7 @@ img {
   text-align: center;
 }
 .hero-card img {
-  max-height: 400px;
+  max-height: 300px;
   object-fit: cover;
 }
 .hero-card .card-content {
@@ -128,6 +128,92 @@ img {
 }
 .btn:hover {
   background-color: #ff3797;
+}
+
+/* ---------- REFINED TOP STORIES SECTION ---------- */
+.section-block {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #fd1ccc;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+/* Layout: 1/2 Main Story + 1/2 Side Stories */
+.story-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+/* Story Card */
+.story-card {
+  background: #1f1f1f;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.story-card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 10px #fd1ccc;
+}
+
+/* Image takes 80% */
+.story-card img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+/* Text container */
+.story-text {
+  padding: 15px;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.story-text h3 {
+  color: #fd1ccc;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.story-text p {
+  font-size: 0.9rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+/* Main Story fills height */
+.main-story .story-card {
+  height: 100%;
+}
+
+/* Side stories in 2x2 layout */
+.side-stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .story-layout {
+    grid-template-columns: 1fr;
+  }
+  .side-stories {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- CARD SECTIONS ---------- */
