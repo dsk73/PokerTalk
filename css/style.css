@@ -91,7 +91,7 @@ img {
 }
 .card-content h3,
 .card-content h2 {
-  color: #fd1ccc;
+  color: rgb(255, 126, 227)
   margin-bottom: 10px;
 }
 .card-content p {
@@ -184,7 +184,7 @@ img {
   justify-content: flex-start;
 }
 .story-text h3 {
-  color: #fd1ccc;
+  color: hsl(313, 100%, 87%);
   font-size: 1.1rem;
   margin-bottom: 5px;
 }

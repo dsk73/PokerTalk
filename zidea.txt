@@ -63,4 +63,7 @@ then make about us section with image and then make footer very stylish
 
 
 keep site colour scheme as pokertalk.in logo and make for dark and light mode as i already tell you
-(above mentioned all values are for understanding of the layout not exactly, after considering marging and paading you can manipulate it
+(above mentioned all values are for understanding of the layout not exactly, after considering marging and paading you can manipulate it)
+
+
+
